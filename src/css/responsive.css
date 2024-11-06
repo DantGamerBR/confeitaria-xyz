@@ -19,7 +19,7 @@
         max-width: 400px;
     }
     
-    .bolos-doces ul li {
+    .servicos ul li {
         padding-top: 25px;
     }
 
@@ -29,6 +29,15 @@
 }
 
 @media(max-width: 425px){
+    .cabecalho h2 {
+        font-size: 1.8rem;
+        align-self: flex-start;
+    }
+
+    .cabecalho .menu {
+        transform: translateY(-9px);
+    }
+
     .cabecalho, .cabecalho nav ul, .rodape ul {
         flex-direction: column;
     }
@@ -43,7 +52,7 @@
         margin: 20px;
     }
 
-    .main, .bolos-doces, .sobre{
+    .main, .servicos, .sobre{
         padding: 30px;
     }
 
